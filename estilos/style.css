@@ -38,9 +38,11 @@ section#login {
     height: 500px;
     border-radius: 20px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.450);
+    transition:  width 1s, heigth 1s;
+    transition-timing-function: ease;
 }
 
-section#login > div#imagen{
+section#login > div#imagem{
     display: block;
     background: #5f2c82 url(../imagens/predios.jpg) no-repeat;
     background-size: cover;
